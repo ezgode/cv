@@ -1,10 +1,12 @@
+/********TAG SELECTORS*********/
 body {
-  background-color:#F5F5F5;
+  background-color:#242323;
   font-family: sans-serif;
+  margin: 0 0 0 0;
 }
 
 hr {
-  border-color:#436C82;
+  border-color:#242323;
   border-width: 7px;
   border-style:dotted none none none;
   width:20%;
@@ -15,12 +17,107 @@ img {
 }
 
 h1 {
-  color:#436C82;
+  color:#D4D1D1;
+  font-family: calibri;
+}
+
+h1:hover {
+  color:#333333;
   font-family: calibri;
 }
 
 h3 {
-  color:#436C82;
-  text-align:center;
+  color:#D4D1D1;
   font-family: calibri;
+  text-align:center;
 }
+
+/********CLASS SELECTORS*********/
+.avatar {
+  align-content: center;
+  height:250px;
+}
+
+.content{
+  background-color: black;
+}
+.heading {
+  height: 400px;
+  padding-top: 120px;
+  padding-bottom: 150px;
+  padding-left: 0;
+  padding-right: 0;
+  color: #D4D1D1;
+}
+.description_par {
+  width:70%;
+  max-width: 800px;
+}
+
+.section {
+  text-align: left;
+}
+.left {
+  float: left;
+  width: 50%;
+
+}
+.right {
+  float: left;
+  width: 50%;
+}
+
+.section_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+.section_content {
+  margin-top: 80px;
+  width: 70%;
+}
+.odd {
+  height: 600px;
+  background-color: #B0ABAB;
+  color: #242323;
+}
+.even {
+  height: 600px;
+  background-color: #949090;
+  color: #242323;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #436C82;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #F5F5F5;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #333333;
+  color: white;
+}
+
+/********ID SELECTORS*********/
