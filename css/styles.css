@@ -1,0 +1,26 @@
+body {
+  background-color:#F5F5F5;
+  font-family: sans-serif;
+}
+
+hr {
+  border-color:#436C82;
+  border-width: 7px;
+  border-style:dotted none none none;
+  width:20%;
+}
+
+img {
+  height:160px;
+}
+
+h1 {
+  color:#436C82;
+  font-family: calibri;
+}
+
+h3 {
+  color:#436C82;
+  text-align:center;
+  font-family: calibri;
+}
