@@ -17,34 +17,48 @@ img {
 
 h1 {
   color:#D4D1D1;
-  font-size: 50px;
+  font-size: 30px;
   font-family: 'Satisfy', cursive;
 }
-
+h2 {
+  font-size: 20px;
+}
 h3 {
+  font-size: 17px;
   color:#D4D1D1;
   font-family: calibri;
   text-align:center;
 }
 
+.social_link {
+  color: #D4D1D1;
+  text-decoration: none;
+  margin: 20px 30px
+}
+
+.social_link:hover {
+  color: #B0ABAB;
+}
+.copyright {
+}
 /********CLASS SELECTORS*********/
 .arrow-down {
-  width: 000px;
-  border-left: 80px solid transparent;
-  border-right: 80px solid transparent;
+  width: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
   margin: 0 auto 0 auto;
   position: relative;
-  top: 130px;
+  top: 110px;
 }
 .first-arrow {
-  border-top: 80px solid #242323;
+  border-top: 60px solid #242323;
 }
 
 .odd-arrow {
-  border-top: 80px solid #B0ABAB;
+  border-top: 60px solid #B0ABAB;
 }
 .even-arrow {
-  border-top: 80px solid #949090;
+  border-top: 60px solid #949090;
 }
 
 .avatar {
@@ -58,41 +72,15 @@ h3 {
 .heading {
   text-align: center;
   background-color:#242323;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #D4D1D1;
 }
 .description_par {
   margin: 0 auto;
   width: 50%;
   max-width: 1000px;
-  font-size: 20px;
-}
-
-.section {
-  text-align: center;
-  padding-bottom: 50px;
-}
-
-.left {
-  float: left;
-  width: 50%;
-
-}
-.right {
-  float: left;
-  width: 50%;
-}
-
-.section_img {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-}
-.section_content {
-  margin-top: 80px;
-  width: 70%;
+  font-size: 17px;
 }
 .odd {
   background-color: #B0ABAB;
@@ -102,37 +90,38 @@ h3 {
   background-color: #949090;
   color: #242323;
 }
-
-/* Add a black background color to the top navigation */
-.topnav {
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  position: fixed;
-  background-color: #436C82;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
+.bottom-container {
   text-align: center;
-  padding: 4px 15px;
-  text-decoration: none;
-  font-size: 17px;
+  background-color: #242323;
+  margin: 00px 0px;
+  padding: 20px 0px;
 }
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #F5F5F5;
-  color: black;
+.small{
+  width:40%;
 }
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #333333;
-  color: white;
+.medium{
+  width:50%; 
 }
-
+.large{
+  width:60%; 
+}
+.section {
+  width : 100%;
+  padding: 0px 0 0px 0;
+}
+.section-column{
+  width : 65%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  vertical-align: top;
+}
+.section_item {
+  text-align: center;
+  align-self: flex-start;
+}
+.section_img {
+  width: 100%;
+  margin-top: auto;
+}
 /********ID SELECTORS*********/
