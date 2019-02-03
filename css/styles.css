@@ -33,13 +33,14 @@ h3 {
 .social_link {
   color: #D4D1D1;
   text-decoration: none;
-  margin: 20px 30px
+  margin: 00px 10px
 }
 
 .social_link:hover {
   color: #B0ABAB;
 }
 .copyright {
+  margin: 0px 0;
 }
 /********CLASS SELECTORS*********/
 .arrow-down {
@@ -72,8 +73,8 @@ h3 {
 .heading {
   text-align: center;
   background-color:#242323;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   color: #D4D1D1;
 }
 .description_par {
@@ -93,8 +94,8 @@ h3 {
 .bottom-container {
   text-align: center;
   background-color: #242323;
-  margin: 00px 0px;
-  padding: 20px 0px;
+  margin: 0px 0px;
+  padding: 10px 0px;
 }
 .small{
   width:40%;
@@ -107,7 +108,7 @@ h3 {
 }
 .section {
   width : 100%;
-  padding: 0px 0 0px 0;
+  padding: 50px 0;
 }
 .section-column{
   width : 65%;
@@ -123,5 +124,13 @@ h3 {
 .section_img {
   width: 100%;
   margin-top: auto;
+}
+.social_icon {
+  width:40px;
+  height:40px;
+}
+.icons_section {
+  padding: 0;
+  margin: 20px 0 0 0;
 }
 /********ID SELECTORS*********/
