@@ -154,6 +154,10 @@ h3 {
   width:40px;
   height:40px;
 }
+.left_column_icon {
+  width:30px;
+  height:30px;
+}
 .icons_section {
   padding: 0;
   margin: 20px 0 0 0;
@@ -170,10 +174,12 @@ h3 {
 .left {
   width: 30%;
   text-align: center;
+  margin-right: 15px;
 }
 .right {
   width: 52%;
-  border-left: 1px solid black;
+  /*border-left: 1px solid black;*/
+  padding-left: 20px;
 }
 .subleft_50 {
   width: 50%;
@@ -229,7 +235,8 @@ h3 {
   font-style: 'Medium'; 
   font-weight: 3000;
   margin-top: 0px;
-  padding: 0px 0px 0px 20px
+  padding: 0px 0px 0px 20px;
+  text-align:justify;
   /*font-variant: "Light";*/
 }
 .paper_title {
@@ -266,7 +273,17 @@ h3 {
   height: 15px;
   width: 15px;
   border-radius: 50%;
+  margin-right: 2px;
   display: inline-block;  
+}
+.left-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 2px;
+  display: inline-block;  
+  position:relative;
+  left:-25.5px;
 }
 .filled {
   background-color: #000000;
@@ -297,6 +314,7 @@ skill_level_2:{
   margin-top: 0px;
   padding-top: 2px;
   padding-left: 20px;
+  text-align:justify;
 }
 
 
@@ -310,3 +328,23 @@ skill_level_2:{
   height: 30vw;
   max-height: 300px;
 }
+
+
+
+  svg {
+    background-color: white;
+  }
+  .dotted-line {
+    fill: none;
+    stroke: black;
+    stroke-width: 50;
+    marker: url(#circle-marker);
+    position:absolute;
+  }
+  #circle-marker circle {
+    fill: black;
+    stroke; black;
+  }
+
+
+
