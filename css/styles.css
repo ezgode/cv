@@ -1,6 +1,6 @@
 /********TAG SELECTORS*********/
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quicksand';
   margin: 0 0 0 0;
 }
 
@@ -16,13 +16,23 @@ img {
 }
 
 h1 {
-  color:#D4D1D1;
+  color:#404040;
   font-size: 30px;
-  font-family: 'Satisfy', cursive;
+  font-family: 'Quicksand'; 
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading_title {
+  font-family: 'Satisfy', cursive; 
 }
 h2 {
   font-size: 20px;
 }
+
+
 h3 {
   font-size: 17px;
   color:#D4D1D1;
@@ -68,14 +78,16 @@ h3 {
 }
 
 .content{
-  background-color: black;
+  background-color: white;
+  margin:0% 8%;
 }
 .heading {
   text-align: center;
   background-color:#242323;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  color: #D4D1D1;
+  background-color:#ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #404040;
 }
 .description_par {
   margin: 0 auto;
@@ -93,7 +105,7 @@ h3 {
 }
 .bottom-container {
   text-align: center;
-  background-color: #242323;
+  background-color: #ffffff;
   margin: 0px 0px;
   padding: 10px 0px;
 }
@@ -134,3 +146,142 @@ h3 {
   margin: 20px 0 0 0;
 }
 /********ID SELECTORS*********/
+/* Clear floats after the columns */
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 1%;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 30%;
+  text-align: center;
+}
+.right {
+  width: 52%;
+  border-left: 1px solid black;
+}
+.subleft_50 {
+  width: 50%;
+  text-align: right;
+  padding-right: 10px;
+}
+.subright_50 {
+  width: auto;
+  text-align: left;
+  border-left: 1px solid black;
+  padding-left: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/**** PAPERS ****/
+.paper_title {
+  font-size: 15px;
+  font-family: 'Quicksand'; 
+  font-style: 'Medium'; 
+  font-weight: 3000;
+  margin-bottom: 1px;
+  /*font-variant: "Light";*/
+}
+.paper_year {
+  font-size: 15px;
+  text-align: left;
+  color: #000000;
+  font-family: 'Quicksand'; 
+  font-style: 'Medium'; 
+  font-weight: 3000;
+  margin: 0px;
+  margin-bottom: 1px;
+  padding: 0px 0px 0px 20px
+  /*font-variant: "Light";*/
+}
+.paper_venue {
+  font-size: 15px;
+  font-family: 'Quicksand'; 
+  font-style: 'Medium'; 
+  font-weight: 3000;
+  /*font-variant: "Light";*/
+}
+.paper_abstract {
+  font-size: 15px;
+  font-family: 'Quicksand'; 
+  font-style: 'Medium'; 
+  font-weight: 3000;
+  margin-top: 0px;
+  padding: 0px 0px 0px 20px
+  /*font-variant: "Light";*/
+}
+.paper_title {
+  font-size: 15px;
+  font-family: 'Quicksand'; 
+  font-style: 'Medium'; 
+  font-weight: 3000;
+  /*font-variant: "Light";*/
+}
+
+.collapsible {
+  background-color: #ffffff;
+  color: #ff0000;
+  cursor: pointer;
+  padding: 0px 0px 0px 20px;
+  margin: 0px;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  color: #000000;
+}
+.desciption_content {
+  /*margin-top: 0px;*/
+  /*padding: 0px 0px 0px 20px;*/
+  display: none;
+  overflow: hidden;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;  
+}
+.filled {
+  background-color: #000000;
+}
+.empty {
+  background-color: #e8e8e8;
+}
+
+
+.skill_level {
+    display:block;
+}
+skill_level_2:{
+  content:"<span class='dot filled'></span><span class='dot filled'></span><span class='dot empty'></span><span class='dot empty'></span><span class='dot empty'></span><span class='dot empty'></span>";
+}
+/**************/
+.edu_title {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.edu_details {
+  margin-top: 0px;
+  padding-top: 2px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;  
+}
+.edu_description {
+  margin-top: 0px;
+  padding-top: 2px;
+  padding-left: 20px;
+}
