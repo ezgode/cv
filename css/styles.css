@@ -38,6 +38,8 @@ a {
 
 .heading_title {
   font-family: 'Quicksand', cursive; 
+  padding-top: 10px;
+  margin-top: 0px
 }
 h2 {
   font-size: 20px;
