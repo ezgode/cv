@@ -317,6 +317,13 @@ skill_level_2:{
   text-align:justify;
 }
 
+.left_col_paragraph {
+  margin-top: 0px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align:justify;
+}
+
 
 
 .y_video {
