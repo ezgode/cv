@@ -34,6 +34,8 @@ h1:first-child {
 
 a {
   text-decoration: none;
+  font-size: 15px;
+  color:#314454
 }
 
 .heading_title {
@@ -107,6 +109,7 @@ h3 {
   width: 50%;
   max-width: 1000px;
   font-size: 17px;
+  text-align:justify
 }
 .odd {
   background-color: #B0ABAB;
@@ -249,12 +252,13 @@ h3 {
 
 .collapsible {
   background-color: #ffffff;
-  color: #ff0000;
+  color: #5F8DB3;
   cursor: pointer;
   padding: 0px 0px 0px 20px;
   margin: 0px;
   border: none;
   text-align: left;
+  width:100%;
   font-size: 15px;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -314,13 +318,14 @@ skill_level_2:{
   margin-top: 0px;
   padding-top: 2px;
   padding-left: 20px;
+  margin-bottom: 0px;
   text-align:justify;
 }
 
 .left_col_paragraph {
   margin-top: 0px;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
   text-align:justify;
 }
 
