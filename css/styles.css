@@ -153,10 +153,7 @@ h3 {
   width: 100%;
   margin-top: auto;
 }
-.social_icon {
-  width:40px;
-  height:40px;
-}
+
 .left_column_icon {
   width:30px;
   height:30px;
@@ -360,3 +357,16 @@ skill_level_2:{
 
 
 
+
+
+ /*************/
+ .skill_base_line {
+  color:#d9d9d9;
+}
+.skill_line {
+  color:#000000;
+}
+.skill_tag {
+  font-size: 12;
+  text-align: right;
+}
