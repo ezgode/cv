@@ -1,3 +1,29 @@
+
+
+// {
+let targ = document.getElementsByClassName("social_icon")
+// function inflate_icon_(data){
+let up_animation_list = []
+let down_animation_list = []
+for (var k = 0; k < targ.length; k++) {
+  up_animation_list[k] = anime({
+      targets: targ[k],
+      easing: 'easeOutElastic(1, 1.0)',
+      duration: 500,
+      keyframes:[
+        {translateY: -10},
+        {translateY: 0},
+      ],
+      background: '#FFF',
+      easing: 'easeInOutQuad',
+      autoplay: false,
+      direction: 'alternate',
+      loop: false,
+    });    
+  targ[k].onmouseenter = up_animation_list[k].play
+  // targ[k].onmouseleave = up_animation_list[k].stop;
+}
+
 // INFLATE SOCIAL ICONS WHEN HOVERING
 function inflate_icon(data){
   data.path[0].setAttribute("fill", "#000000")
@@ -10,6 +36,21 @@ for (targ of document.getElementsByClassName("social_icon")){
   targ.addEventListener("mouseleave", deinflate_icon)    
 }
 
+// var animation = anime({
+//     targets: targ[0],
+//     easing: 'easeOutElastic(1, 1.0)',
+//     duration: 1000,
+//     translateY: -10,
+//     autoplay: false,
+//   });
+// targ.onmouseenter = animation.play
+// }
+// for (targ of document.getElementsByClassName("social_icon")){
+//   targ.onmouseenter = animation.play
+//   // targ.addEventListener("mouseleave", deinflate_icon)    
+// }
+
+// }
 
 
 // 
