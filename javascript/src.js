@@ -1,5 +1,6 @@
-
-
+// picture
+let avatar = document.getElementsByClassName("avatar")
+  
 // {
 let targ = document.getElementsByClassName("social_icon")
 // function inflate_icon_(data){
@@ -14,7 +15,6 @@ for (var k = 0; k < targ.length; k++) {
         {translateY: -10},
         {translateY: 0},
       ],
-      background: '#FFF',
       easing: 'easeInOutQuad',
       autoplay: false,
       direction: 'alternate',
@@ -35,23 +35,6 @@ for (targ of document.getElementsByClassName("social_icon")){
   targ.addEventListener("mouseenter", inflate_icon)
   targ.addEventListener("mouseleave", deinflate_icon)    
 }
-
-// var animation = anime({
-//     targets: targ[0],
-//     easing: 'easeOutElastic(1, 1.0)',
-//     duration: 1000,
-//     translateY: -10,
-//     autoplay: false,
-//   });
-// targ.onmouseenter = animation.play
-// }
-// for (targ of document.getElementsByClassName("social_icon")){
-//   targ.onmouseenter = animation.play
-//   // targ.addEventListener("mouseleave", deinflate_icon)    
-// }
-
-// }
-
 
 // 
 let table = document.getElementById("skill_table");
