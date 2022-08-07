@@ -106,7 +106,7 @@ h3 {
 }
 .description_par {
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
   max-width: 1000px;
   font-size: 17px;
   text-align:justify
@@ -177,7 +177,7 @@ h3 {
   margin-right: 15px;
 }
 .right {
-  width: 52%;
+  width: 60%;
   /*border-left: 1px solid black;*/
   padding-left: 20px;
 }
