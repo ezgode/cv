@@ -39,22 +39,23 @@ for (targ of document.getElementsByClassName("social_icon")){
 // 
 let table = document.getElementById("skill_table");
 let skills = [
-  [95, "Motion planning"],
-  [95, "Collision avoidance"],
-  [95, "Matlab"],
-  [90, "Python"],
+  [90, "Motion planning"],
+  [90, "Collision avoidance"],
+  [90, "Matlab"],
+  [85, "Python"],
+  [80, "Git"],
   [80, "Latex"],
   [80, "Technical writing"],
-  [75, "Photoshop"],
-  [75, "Illustrator"],
-  [70, "Git"],
-  [56, "ROS"], 
-  [55, "C++"],
-  [55, "Machine Learning"],
-  [50, "Optimal Control"],
-  [50, "HTML, CSS, javascript"],
-  [40, "Catia"],
-  [30, "Labview"],
+  [75, "Photoshop, Illustrator"],
+  // [75, "Illustrator"],
+  [70, "C++"],
+  [55, "Conan"],
+  [50, "ROS"], 
+  [45, "Machine Learning"],
+  [45, "Optimal Control"],
+  [40, "HTML, CSS, javascript"],
+  [30, "Catia"],
+  [20, "Labview"],
 ]
 let i = -1;
 for(el of skills){
@@ -91,7 +92,8 @@ let language_table = document.getElementById("language_table");
 let languages = [
   [100, "Spanish"],
   [85, "English"],
-  [60, "French"]
+  [50, "French"],
+  [10, "German"],
 ]
 i = -1;
 for(el of languages){
